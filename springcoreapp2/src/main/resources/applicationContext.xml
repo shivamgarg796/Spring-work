@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="b" class="com.masai.B"> -->
+	<!-- <property name="a1" ref="a" /> -->
+	<!-- </bean> -->
+
+
+	<!-- <bean id="a" class="com.masai.A"> -->
+	<!-- <constructor-arg name="b1" ref="b" /> -->
+	<!-- </bean> -->
+
+	<bean id="db" class="com.masai.DAOBean" />
+
+	<bean id="sb" class="com.masai.ServiceBean" autowire="byType">
+	<property name="dao" ref="db"/>
+	</bean>
+
+	<bean id="pb" class="com.masai.PresentationBean" autowire="byType">
+	<property name="service" ref="sb"/>
+	</bean>
+
+	<!-- <bean id="a2" class="com.masai.A" /> -->
+
+	<!-- <bean id="a1" class="com.masai.A" /> -->
+
+	<!-- <bean id="b5" class="com.masai.B" /> -->
+
+	<!-- <bean id="d1" class="com.masai.Demo" autowire="constructor" /> -->
+
+
+	<!-- <bean id="a1" class="com.masai.A" init-method="setUp" destroy-method="destroy" 
+		lazy-init="true"> -->
+	<!-- <property name="message" value="welcome to spring" /> -->
+	<!-- </bean> -->
+
+	<!-- <bean id="b1" class="com.masai.B" init-method="init" lazy-init="true"> -->
+	<!-- <property name="number" value="100"/> -->
+	<!-- </bean> -->
+
+
+<!-- 	<bean id="a1" class="com.masai.A" scope="prototype"> -->
+
+<!-- 		<property name="message" value="welcome to spring" /> -->
+<!-- 	</bean> -->
+
+
+
+
+
+
+
+
+</beans>

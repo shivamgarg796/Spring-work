@@ -1,0 +1,11 @@
+Q1. What is Tight coupling and loose coupling?
+
+Answer:--
+
+Tight coupling means classes and objects are dependent on one another. In general, tight coupling is usually not good because
+it reduces the flexibility and re-usability of the code while Loose coupling means reducing the dependencies of a class that 
+uses the different class directly.
+
+Loose coupling is a design goal to reduce the inter-dependencies between components of a system with the goal of reducing the risk 
+that changes in one component will require changes in any other component.Or we can say that Loose coupling is a much more generic 
+concept intended to increase the flexibility of the system, make it more maintainable and makes the entire framework more stable.
