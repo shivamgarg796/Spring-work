@@ -1,0 +1,107 @@
+//saveAdmin
+{
+  "email": "alpha@gmail.com",
+  "mobileNo": "7894561230",
+  "name": "Harry Potter",
+  "password": "LilyPotter"
+}
+
+//adminLogin
+{
+  "mobileNo": "7894561230",
+  "password": "LilyPotter"
+}
+CurrentAdminSession(id=11, adminId=10, uuid=ZaVLaK, localDateTime=2022-08-17T11:13:42.772910500)
+
+//addVaccineInventory
+{
+  "date": "18-08-2022",
+  "vaccinationCenters": [
+    {
+      "address": "Bandra",
+      "centername": "Banstand",
+      "city": "Mumbai",
+      "code": 1003,
+      "pincode": "400001",
+      "state": "Maharastra"
+    }
+  ],
+  "vaccineCounts": [
+    {
+      "price": 300,
+      "quantity": 1500,
+      "vaccine": {
+        "description": "High Immunity",
+        "vaccineName": "Covaxin"
+      }
+}
+
+  ],
+  "vaccineInventoryId": 12001
+}
+
+//saveUser
+{
+  "email": "shivamrocxx@gmail.com",
+  "mobileNo": "7410852963",
+  "name": "Shivam",
+  "password": "Shivam"
+}
+
+//userLogin
+{
+  "mobileNo": "7410852963",
+  "password": "Shivam"
+}
+
+CurrentUserSession(id=15, userId=14, uuid=ccpibV, localDateTime=2022-08-17T11:28:03.305439400)
+
+//vaccineReg
+7410852963
+
+//addMember
+{
+  
+ 
+  "idCard": {
+    "address": "JamNagar",
+    "adharcard": {
+      "adharNo": 123456789123
+    },
+    "city": "Agra",
+    "dob": "12-05-1998",
+    "gender": "Male",
+    "name": "Shivam",
+    "pancard": {
+      "panNo": "ABCDE4321Z"
+    },
+    "pincode": "122816",
+    "state": "UP"
+  }
+}
+memid : 16
+
+//getAllVaccinationCenters
+
+
+//getAllVaccines
+
+
+//appointment
+{
+  "mobileNo": "7410852963",
+  "slot": "SLOT5",
+  "vaccinationCenter": {
+   
+    "code": 1003
+    
+  }
+}
+
+//updateDose
+{
+  "dose1Date": "17-08-2022",
+  "vaccine": {
+    "vaccineName": "Covaxin"
+  }
+}
